@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-size: 32px;
+}
+.container {
+    width: 500px;
+    margin: 100px auto;
+    height: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: gray;
+}
